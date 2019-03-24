@@ -57,11 +57,19 @@
 				68132FFE224782DA00EFDA11 /* AppDelegate.swift */,
 				68133004224782DA00EFDA11 /* GameScene.swift */,
 				68133006224782DA00EFDA11 /* GameViewController.swift */,
-				6813300B224782DB00EFDA11 /* Assets.xcassets */,
-				6813300D224782DB00EFDA11 /* LaunchScreen.storyboard */,
-				68133010224782DB00EFDA11 /* Info.plist */,
+				681330162247D55C00EFDA11 /* Supporting Files */,
 			);
 			path = SpacePong;
+			sourceTree = "<group>";
+		};
+		681330162247D55C00EFDA11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6813300D224782DB00EFDA11 /* LaunchScreen.storyboard */,
+				6813300B224782DB00EFDA11 /* Assets.xcassets */,
+				68133010224782DB00EFDA11 /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +284,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52J7C48NL9;
-				INFOPLIST_FILE = SpacePong/Info.plist;
+				INFOPLIST_FILE = "SpacePong/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +302,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52J7C48NL9;
-				INFOPLIST_FILE = SpacePong/Info.plist;
+				INFOPLIST_FILE = "SpacePong/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
